@@ -8,4 +8,9 @@ cask "cooviewer" do
   homepage "https://github.com/ysmx/cooViewer"
 
   app "cooViewer.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+      args: ["-dr", "com.apple.quarantine", "#{appdir}/cooViewer.app"]
+  end
 end
