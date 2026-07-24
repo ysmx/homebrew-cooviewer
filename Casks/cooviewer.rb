@@ -4,7 +4,7 @@ cask "cooviewer" do
 
   url "https://github.com/ysmx/cooViewer/releases/download/v#{version}/cooViewer.zip"
   name "cooViewer"
-  desc "macOS向け画像ビューア（漫画・ZIP/RAR対応）"
+  desc "macOS image viewer for comics/manga. macOS 10.14+ Universal binary. Supports ZIP, RAR, CBZ, CBR, 7Z, PDF, etc."
   homepage "https://github.com/ysmx/cooViewer"
 
   app "cooViewer.app"
