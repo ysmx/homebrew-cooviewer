@@ -1,6 +1,6 @@
 cask "cooviewer" do
-  version "1.5.2"
-  sha256 "8b4cafbc5bf448dff39b240fcb83d845302d49cd2d8fc0b85771187c0dccfb72"
+  version "1.5.3"
+  sha256 "e53c2451e39f219a6d26a19ef88e12a7f1d2d911b6f23f7e21106ec5eb10bd7e"
 
   url "https://github.com/ysmx/cooViewer/releases/download/v#{version}/cooViewer.zip"
   name "cooViewer"
