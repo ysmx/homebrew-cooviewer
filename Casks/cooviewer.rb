@@ -9,8 +9,8 @@ cask "cooviewer" do
 
   app "cooViewer.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-      args: ["-dr", "com.apple.quarantine", "#{appdir}/cooViewer.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/cooViewer.app"]
   end
 end
